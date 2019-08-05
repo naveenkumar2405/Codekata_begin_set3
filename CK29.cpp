@@ -3,9 +3,10 @@ using namespace std;
 
 int main ()
 {
-    int hrs, min;
-    cin >> min;
-    hrs= min*0.016667;
-    cout << hrs << " " << min ;
-    return 0;
+    int hrs, minute;
+    cin >> minute;
+    hrs= minute*0.016667;
+    minute=minute%60;
+
+    cout << "\n" << hrs << " " << minute ;
 }
