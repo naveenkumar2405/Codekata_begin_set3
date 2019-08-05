@@ -6,6 +6,6 @@ int main ()
     int hrs, min;
     cin >> min;
     hrs= min*0.016667;
-    cout << "\n" << hrs << " " << min ;
+    cout << hrs << " " << min ;
     return 0;
 }
